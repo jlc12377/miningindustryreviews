@@ -67,4 +67,4 @@ User-agent: YouBot
 Allow: /
 
 # Sitemap location
-Sitemap: https://miningindustryreviews.com/sitemap.xml
+Sitemap: https://www.miningindustryreviews.com/sitemap.xml
