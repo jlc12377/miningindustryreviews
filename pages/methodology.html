@@ -37,13 +37,22 @@
 .footer{background:var(--black);padding:64px 28px 40px;border-top:1px solid rgba(255,255,255,.04)}.footer-inner{max-width:var(--max-w);margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px}.footer-brand-mark{display:flex;align-items:center;gap:10px;margin-bottom:14px}.footer-logo{width:28px;height:28px;border-radius:6px;background:linear-gradient(135deg,var(--emerald),#ea580c);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:14px;color:#fff;font-style:italic}.footer-brand-name{font-size:14px;font-weight:600;color:#fff}.footer-brand-name span{color:var(--emerald-soft)}.footer-desc{font-size:13px;color:rgba(255,255,255,.3);line-height:1.6;max-width:280px}.footer-col-title{font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,.4);margin-bottom:16px}.footer-col a{display:block;font-size:13.5px;color:rgba(255,255,255,.35);text-decoration:none;margin-bottom:10px}.footer-col a:hover{color:var(--emerald-soft)}.footer-bottom{max-width:var(--max-w);margin:40px auto 0;padding:20px 0 0;border-top:1px solid rgba(255,255,255,.06);display:flex;justify-content:space-between;font-size:12px;color:rgba(255,255,255,.2)}.footer-bottom a{color:rgba(255,255,255,.25);text-decoration:none;margin-left:20px}
 @media(max-width:900px){.page-h1{font-size:28px}.footer-inner{grid-template-columns:1fr 1fr}.nav-links{display:none;position:absolute;top:var(--nav-h);left:0;right:0;background:var(--black);flex-direction:column;padding:20px 28px;gap:16px;border-bottom:1px solid rgba(255,255,255,.06)}.nav-links.open{display:flex}.mobile-menu-btn{display:flex}}
 </style>
+<style>
+.get-verified-note{margin:14px 0 0;font-size:14px;line-height:1.5}
+.get-verified-note a{font-weight:600}
+.listicle-header .get-verified-note a{color:#bfdbfe}
+.get-verified-cta{display:inline-block;margin-top:8px;padding:14px 22px;background:#059669;color:#fff;border-radius:4px;font-size:14px;font-weight:600;text-decoration:none}
+.footer-desc{max-width:460px}
+.footer-disclosure{max-width:var(--max-w,1200px);margin:28px auto 0;font-size:13px;line-height:1.6;color:rgba(255,255,255,.55)}
+.sponsored-box[hidden],.verified-listings[hidden]{display:none!important}
+</style>
 </head>
 <body>
 
 <nav class="nav">
   <div class="nav-inner">
     <a href="/" class="nav-brand"><div class="nav-logo-mark">Mi</div><div class="nav-logo-text">Mining Industry <span>Reviews</span></div></a>
-    <div class="nav-links"><a href="/">Home</a><a href="/#categories">Rankings</a><a href="/pages/methodology.html">Methodology</a><a href="/pages/pricing.html" class="nav-cta">Get Listed</a></div>
+    <div class="nav-links"><a href="/">Home</a><a href="/#categories">Rankings</a><a href="/pages/methodology.html">Methodology</a><a href="https://listicleliaison.com/pages/pricing.html" class="nav-cta">Get Listed</a></div>
     <button class="mobile-menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu"><span></span><span></span><span></span></button>
   </div>
 </nav>
@@ -78,9 +87,8 @@
 
 <h2>How sponsored placements work</h2>
 <div class="highlight-box">
-<p><strong>Our core principle:</strong> Organic ranking positions are determined solely by our scoring methodology and are never available for purchase. Featured Partner placements are a separate, clearly labeled position that does not influence organic rankings.</p>
+<p><a href="https://listicleliaison.com/pages/pricing.html">Businesses can buy a verified listing, a highlighted listing, or one labeled Sponsored spot per category through Listicle Liaison. Paying never changes a ranking, and every paid placement is labeled.</a></p>
 </div>
-<p>We offer paid listing tiers from basic claimed profiles ($99/mo) to Featured Partner placements ($699/mo). Every paid placement is visually distinct and clearly labeled. Organic rankings are never for sale.</p>
 
 <h2>Mining industry considerations</h2>
 <p>Mining company rankings require specialized evaluation criteria. We assess resource classification standards (Measured, Indicated, Inferred), jurisdictional risk profiles, permitting status and timeline, environmental compliance and reclamation obligations, community relations and social license, and management team track records in bringing projects to production.</p>
@@ -98,13 +106,15 @@
 
 <footer class="footer">
   <div class="footer-inner">
-    <div><div class="footer-brand-mark"><div class="footer-logo">Mi</div><div class="footer-brand-name">Mining Industry <span>Reviews</span></div></div><p class="footer-desc">Independent mining company rankings. Part of the Listicle Liaison network.</p></div>
+    <div><div class="footer-brand-mark"><div class="footer-logo">Mi</div><div class="footer-brand-name">Mining Industry <span>Reviews</span></div></div><p class="footer-desc">Independent mining company rankings.</p></div>
     <div class="footer-col"><div class="footer-col-title">Rankings</div><a href="/pages/gold-rankings.html">Gold & Silver Mining</a><a href="/pages/lithium-rankings.html">Lithium & Battery Metals</a><a href="/pages/copper-rankings.html">Base Metals & Copper</a><a href="/pages/uranium-rankings.html">Uranium & Nuclear</a></div>
     <div class="footer-col"><div class="footer-col-title">Company</div><a href="https://listicleliaison.com/pages/about.html">About</a><a href="/pages/methodology.html">Methodology</a><a href="mailto:partnerships@listicleliaison.com">Contact Us</a></div>
-    <div class="footer-col"><div class="footer-col-title">For Companies</div><a href="/pages/pricing.html">Listing Plans</a><a href="https://listicleliaison.com">Listicle Liaison</a></div>
+    <div class="footer-col"><div class="footer-col-title">For Companies</div><a href="https://listicleliaison.com/pages/pricing.html">Own a business? Get verified →</a><a href="https://listicleliaison.com">Listicle Liaison</a></div>
   </div>
+  <p class="footer-disclosure">Mining Industry Reviews is part of Listicle Liaison's network of review sites. Rankings are not for sale. Sponsored placements are labeled and sit outside the ranked list.</p>
   <div class="footer-bottom"><span>&copy; 2026 Mining Industry Reviews.</span><span><a href="https://listicleliaison.com/pages/privacy.html">Privacy</a><a href="https://listicleliaison.com/pages/terms.html">Terms</a><a href="https://listicleliaison.com/pages/disclosure.html">Disclosure</a></span></div>
 </footer>
 
+<script src="/assets/ll-events.js"></script>
 </body>
 </html>
