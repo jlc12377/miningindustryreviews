@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/pages/pricing.html",
+      "destination": "https://listicleliaison.com/pages/pricing.html",
+      "statusCode": 301
+    }
+  ]
+}

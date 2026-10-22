@@ -88,6 +88,15 @@
   ]
 }
 </script>
+<style>
+.get-verified-note{margin:14px 0 0;font-size:14px;line-height:1.5}
+.get-verified-note a{font-weight:600}
+.listicle-header .get-verified-note a{color:#bfdbfe}
+.get-verified-cta{display:inline-block;margin-top:8px;padding:14px 22px;background:#059669;color:#fff;border-radius:4px;font-size:14px;font-weight:600;text-decoration:none}
+.footer-desc{max-width:460px}
+.footer-disclosure{max-width:var(--max-w,1200px);margin:28px auto 0;font-size:13px;line-height:1.6;color:rgba(255,255,255,.55)}
+.sponsored-box[hidden],.verified-listings[hidden]{display:none!important}
+</style>
 </head>
 <body>
 
@@ -97,7 +106,7 @@
       <div class="nav-logo-mark">Mi</div>
       <div class="nav-logo-text">Mining Industry <span>Reviews</span></div>
     </a>
-    <div class="nav-links"><a href="/">Home</a><a href="/#categories">Rankings</a><a href="/pages/methodology.html">Methodology</a><a href="/pages/pricing.html" class="nav-cta">Get Listed</a></div>
+    <div class="nav-links"><a href="/">Home</a><a href="/#categories">Rankings</a><a href="/pages/methodology.html">Methodology</a><a href="https://listicleliaison.com/pages/pricing.html" class="nav-cta">Get Listed</a></div>
     <button class="mobile-menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu"><span></span><span></span><span></span></button>
   </div>
 </nav>
@@ -142,7 +151,7 @@
     <span>&#10003; No vendor influence</span>
     <span>&#10003; Updated monthly</span>
     <span>&#10003; Transparent methodology</span>
-    <span>&#10003; Part of the Listicle Liaison network</span>
+    <span>&#10003; Part of Listicle Liaison's network of review sites</span>
   </div>
 </div>
 
@@ -166,8 +175,8 @@
 
 <section class="cta">
   <h2>Your mining company deserves visibility</h2>
-  <p>Claim your company profile or upgrade to Featured placement for premium visibility in the mining industry. Claim your profile or upgrade to Featured placement.</p>
-  <a href="/pages/pricing.html" class="cta-btn">View Listing Plans &rarr;</a>
+  <p>Businesses can buy a verified listing, a highlighted listing, or one labeled Sponsored spot per category through Listicle Liaison. Paying never changes a ranking, and every paid placement is labeled.</p>
+  <a href="https://listicleliaison.com/pages/pricing.html" class="cta-btn">Own a business? Get verified →</a>
 </section>
 
 <footer class="footer">
@@ -177,7 +186,7 @@
         <div class="footer-logo">Mi</div>
         <div class="footer-brand-name">Mining Industry <span>Reviews</span></div>
       </div>
-      <p class="footer-desc">Independent, data-driven rankings of mining companies across gold, lithium, copper, uranium, and more. Part of the Listicle Liaison publishing network.</p>
+      <p class="footer-desc">Independent, data-driven rankings of mining companies across gold, lithium, copper, uranium, and more. Mining Industry Reviews is part of Listicle Liaison's network of review sites. Rankings are not for sale. Sponsored placements are labeled and sit outside the ranked list.</p>
     </div>
     <div class="footer-col">
       <div class="footer-col-title">Rankings</div>
@@ -196,16 +205,17 @@
     </div>
     <div class="footer-col">
       <div class="footer-col-title">For Companies</div>
-      <a href="/pages/pricing.html">Listing Plans</a>
+      <a href="https://listicleliaison.com/pages/pricing.html">Own a business? Get verified →</a>
       <a href="https://listicleliaison.com">Listicle Liaison</a>
     </div>
   </div>
   <div class="footer-bottom">
-    <span>&copy; 2026 Mining Industry Reviews. Part of the Listicle Liaison network.</span>
+    <span>&copy; 2026 Mining Industry Reviews.</span>
     <span><a href="https://listicleliaison.com/pages/privacy.html">Privacy</a><a href="https://listicleliaison.com/pages/terms.html">Terms</a><a href="https://listicleliaison.com/pages/disclosure.html">Disclosure</a></span>
   </div>
 </footer>
 
 <script>window.addEventListener('scroll',()=>{document.getElementById('mainNav').classList.toggle('scrolled',window.scrollY>10)})</script>
+<script src="/assets/ll-events.js"></script>
 </body>
 </html>
